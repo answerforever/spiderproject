@@ -15,6 +15,9 @@ using System.Text.RegularExpressions;
 
 namespace spiderproject
 {
+    /// <summary>
+    /// 宁波世荣
+    /// </summary>
     public class EgiFreightSpider : EntitySpider
     {
         public EgiFreightSpider() : base("EgiFreightSpider", new Site
@@ -27,7 +30,6 @@ namespace spiderproject
                     { "Upgrade-Insecure-Requests"  ,"1" },
                     { "Accept-Language"  ,"en,en-US;q=0.8" },
                     { "Cache-Control" , "ax-age=0" },
-                    //{ "Content-Type","application/json"},
                     { "Host","egi-freight.100jit.com"}
                 }
         })
